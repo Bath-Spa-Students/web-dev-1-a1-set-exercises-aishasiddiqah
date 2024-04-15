@@ -1,27 +1,27 @@
-body{
-    background-color: #9c44ab;
-    color: #ffff00;
-    padding: 10px;
-    padding-top: 0.5px;
-    padding-bottom: 0.5px;
+body{ /* for styling the whole body of the webpage */
+    background-color: #9c44ab; /* adds a color to the background */
+    color: #ffff00; /* specifies font color */
+    padding: 10px; /* adds space between elements and border */
+    padding-top: 0.5px; /* adds space between elements and border (specifically at the top) */
+    padding-bottom: 0.5px; /* adds space between elements and border (specifically at the bottom) */
 }
 
-header{
+header{ /* for styling the header */
     background-color: #772e84;
     color: black;
-    text-align: center;
+    text-align: center; /* places text in the center of the header */
     padding: 20px;
     padding-bottom: 0.5px;
-    margin: -10px;
-    margin-left: -20px;
-    margin-right: -18px;
-    font-family: "Mate SC", serif;
+    margin: -10px; /* creates space around the header */
+    margin-left: -20px; /* creates space around the header (to the left) */
+    margin-right: -18px; /* creates space around the header (to the left) */
+    font-family: "Mate SC", serif; /* specifies the font */
 
-    h1{
-        text-decoration: overline 2px;
+    h1{ /* to style the h1 headings */
+        text-decoration: overline 2px; /* adds a line over the heading */
     }
 
-    ul{
+    ul{ /* to style the unordered lists */
         font-family: "Cinzel", serif;
         font-size: 18px;
         font-weight: 500;
@@ -33,35 +33,35 @@ header{
     }
 }
 
-a{
+a{ /* to style the hyperlinks */
     text-decoration: none;
 }
 a:link, a:visited{
     color: black;
 }
-a:hover{
+a:hover{ /* to style the hyperlinks when the mouse pointer hovers over them */
     color: #cd0096;
 }
 
-main{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+main{ /* styles the main section of the webpage */
+    width: 70%; /* sets the width of the section */
+    margin-left: auto; /* for centering the content */
+    margin-right: auto; /* for centering the content */
 
-    p{
+    p{ /* to style the text in the p tags */
         font-family: "Mate SC", serif;
         text-align: justify;
 
-        b{
+        b{ /* styles the text that is specifically in the b tags */
             font-size: 20px;
             text-decoration: overline solid 0.5px;
         }
     }
 
-    table{
+    table{ /* to style the tables */
         font-family: "Mate SC", serif;
         text-align: center justify;
-        font-size: 15px;
+        font-size: 15px; /* changes text size */
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -76,7 +76,7 @@ main{
     }
 }
 
-#title{
+#title{ /* id attribute */
     font-family: "Cinzel Decorative", serif ;
     font-size: 90px;
     font-weight: 700; 
@@ -88,7 +88,7 @@ main{
     background-color: #560963;
 }
 
-h1{
+h1{ 
     font-size: 30px;
     text-align: center;
     font-family: "Cinzel", serif;
@@ -97,7 +97,7 @@ h1{
 }
 
 .smallBox{
-    li{
+    li{ /* to style list items */
         list-style: none;
         border:#f9f90a solid 1px;
         width:90%;
@@ -111,11 +111,11 @@ h1{
 }
 
 #left{
-    float: left;
+    float: left; /* places content to the left of the page */
 }
 
 #right{
-    float: right;
+    float: right; /* places content to the right of the page */
 }
 
 .revs{
@@ -123,7 +123,7 @@ h1{
     margin-right: auto;
 }
 
-.button{
+.button{ /* to style the button */
     border: solid 2px;
     border-radius: 5px;
     width: fit-content;
@@ -138,7 +138,7 @@ h1{
     }
 }
 
-.button:hover{
+.button:hover{ /* to change the style of the button when you hover over it */
     background-color:#cd0096;
     color: white;
 }
@@ -155,7 +155,7 @@ h1{
     background-color: #560963;
 }
 
-footer{
+footer{ /* styling the footer */
     clear: both;
     text-align: center;
     margin-top: 10px;
