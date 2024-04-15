@@ -1,151 +1,151 @@
-header{
-    text-align: center;
-    font-family: monospace;
-    padding-bottom: 5px;
-    font-size: 30px;
-    font-weight: 700;
-    background-color: #f89d68;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    margin-left: -150px;
-    margin-right: -150px;
-    text-decoration: overline 1px;
+header{ /* to style the header */
+    text-align: center; /* aligns the text in the center */
+    font-family: monospace; /* to change the text font */
+    padding-bottom: 5px; /* to add space between content and border, specifically at the bottom */
+    font-size: 30px; /* changes font size */
+    font-weight: 700; /* changes font boldness */
+    background-color: #f89d68; /* to add background color */
+    margin-top: -10px; /* margin creates space around the element, here it will create space at the top */
+    margin-bottom: -10px; /* creates space on the bottom of element */
+    margin-left: -150px; /* adds space to the left */
+    margin-right: -150px; /* creates space to the right of the element */
+    text-decoration: overline 1px; /* adds a line over the text */
 
-    img{
-        padding-top: 4px;
-        width: 10%;
-        height: 10%;
+    img{ /* for the image dimensions within the header */
+        padding-top: 4px; 
+        width: 10%; /* to specify width of the image */
+        height: 10%; /* to specify height of the image */
     }
 }
 
-body{
+body{ /* adds style to the whole page */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fce3d6;
-    background-image: url(images/cookie_bg.png);
-    background-repeat:left right repeat-y;
+    background-image: url(images/cookie_bg.png); /* adds a background image to the page */
+    background-repeat:left right repeat-y; /* adds the background image only to the left and right sides, and repeats the image along the y-axis only (i.e. vertically) */
 
     div{
         background-color: #fce3d6;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 80%; /* sets width of the full page to 80% */
+        margin-left: auto; /* will set the all page elements in the center when used with margin-right:auto */
+        margin-right: auto; /* sets all the page in the center (when used with margin-left:auto) */
     }
 }
 
-.description{
-    box-sizing: border-box;
-    width: 80%;
-    border: none;
-    padding: 20px;
-    padding-top: 1px;
-    padding-bottom: 0%;
-    margin: auto;
-    margin-top: 10px;
+.description{ /* to style the div with the class 'description' (the text that is right below the header in this case) */
+    box-sizing: border-box; /* will help with sizing elements */
+    width: 80%; /* sets the width for the div */
+    border: none; /* erases any borders */
+    padding: 20px; /* adds space around elements, within its borders */
+    padding-top: 1px; /* adds space specifically to the top (beneath the element borders) */
+    padding-bottom: 0%; /* adds space specifically to the bottom (beneath the element borders) */
+    margin: auto; /* adds space around elements, outside the borders */
+    margin-top: 10px; /* for space specifically on top, outside specified border */
 
-    h1{
-        text-align:center;
-        margin-top: 5%;
+    h1{ /* to style the h1 heading in this particular div */
+        text-align:center; /* places the text in the center */ 
+        margin-top: 5%; /* adds space on top, outside of border */
     }
 
-    p{
-        text-align: justify;
-        font-size: larger;
+    p{ /* to style the text within the p tag in this particular div */
+        text-align: justify; /* aligns the text neatly in lines that have equal width */
+        font-size: larger; /* makes size of font larger */
     }
 
-    img{
-        width: 32.5%;
-        border: 1px solid;
+    img{ /* to style the images in this particular div */
+        width: 32.5%; /* for width of images */
+        border: 1px solid; /* adds a border around the images */
     }
 }
 
-.ingredients{
-    float:right;
-    box-sizing: border-box;
-    width: 50%;
-    border: none;
-    padding-top: 1%;
-    padding-bottom: 0%;
-    margin-right: 10%;
+.ingredients{ /* to style the div with the class 'ingredients' (this will style the ingredients section in this webpage) */
+    float:right; /* places the div to the right of the page */
+    box-sizing: border-box; /* to make sizing easier */
+    width: 50%; /* sets width of div */
+    border: none; /* no border */
+    padding-top: 1%; /* adds space between element and border (specifically at the top) */
+    padding-bottom: 0%; /* adds space between element and border (specifically at bottom) */
+    margin-right: 10%; /* adds spaces between the border of this div and the border of another element (to the right) */
     
-    h2{
-        text-align: left;
-        text-decoration: underline;
+    h2{ /* styles the level 2 heading in this div (the 'Ingredients:' heading) */
+        text-align: left; /* text will be to the left */
+        text-decoration: underline; /* adds a line under the heading */
     }
 
-    ul{
-        text-align: left;
-    }
-}
-
-.method{
-    float:right;
-    box-sizing: border-box;
-    width: 40%;
-    border: none;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    margin: auto;  
-    margin-right: 15%;
-
-    h2{
-        text-align: left;
-        text-decoration: underline;
-    }
-
-    ol{
-        text-align: left;
+    ul{ /* to style the unordered list (the list contains the ingredients required) */
+        text-align: left; /* the list will be aligned to the left */
     }
 }
 
-.notes{
-    float: left;
-    box-sizing: border-box;
-    background-color: #FFBE98;
-    width: 25%;
-    height: 80%;
-    border: 1px solid;
-    padding: 5px;
-    padding-top: 1%;
-    margin: auto;
-    margin-bottom: 9%;
-    margin-top: 2%;
-    margin-left: 150px;
-    padding-bottom: 1%;
+.method{ /* to style the div with the class 'method' (this will style the method section within this webpage) */
+    float:right; /* to place the div to the right of the page */
+    box-sizing: border-box; /* to make it easier to size the elements */
+    width: 40%; /* sets width of div */
+    border: none; /* no border */
+    padding-bottom: 0%; /* no spacing on bottom (works even if border property is set to none) */
+    padding-top: 0%; /* no spacing between elements and border on top (works even if border property is set to none) */
+    margin: auto; /* automatically selects an appropriate margin value to use around the div borders */ 
+    margin-right: 15%; /* adds space between the border of this div and the borders of other elements (to the right) */ 
 
-    h2{
-        text-align: left;
-        text-decoration: underline;
+    h2{ /* styles the level 2 heading in this div (the 'Method:' heading) */
+        text-align: left; /* aligns the heading to the left of the div */ 
+        text-decoration: underline; /* underlines the heading */ 
     }
 
-    p{
-        text-align: left;
-        font-size: small;
+    ol{ /* for styling the ordered list (the list contains the instructions for the recipe)  */ 
+        text-align: left; /* aligns the list to the left */ 
+    }
+}
 
-        b{
-            text-decoration: underline 1px;
+.notes{ /* to style the div with the class 'notes' (this will style the notes section within this webpage) */
+    float: left; /* to place the div to the left of the page */ 
+    box-sizing: border-box; /* makes it easier to size elements */ 
+    background-color: #FFBE98; /* changes the background color for this specific div */ 
+    width: 25%; /* sets the width of the div */ 
+    height: 80%; /* sets the height */ 
+    border: 1px solid; /* adds a border around the div */ 
+    padding: 5px; /* adds space around the elements and the borders */ 
+    padding-top: 1%; /* adds space on top */ 
+    margin: auto; /* for automatic margin value */ 
+    margin-bottom: 9%; /* for margin on bottom */ 
+    margin-top: 2%; /* for margin on top */ 
+    margin-left: 150px; /* for the left margin */ 
+    padding-bottom: 1%; /* for space on the bottom */ 
+
+    h2{ /* styles the level 2 heading in this div (the 'Notes:' heading) */
+        text-align: left; /* places the heading to the left */ 
+        text-decoration: underline; /* adds an underline under the heading */ 
+    }
+
+    p{ /* will style the text in the div */ 
+        text-align: left; /* text will be placed to the left of the div */ 
+        font-size: small; /* size of the text will be small */ 
+
+        b{ /* will style the text that is between the <b> tags */ 
+            text-decoration: underline 1px; /* will add an underline below the text */ 
         }
     }
 
-    table{
-        text-align: center;
-        border-spacing: 10px;
+    table{ /* will style the table cells */ 
+        text-align: center; /* aligns the text within the cells in the center */ 
+        border-spacing: 10px; /* the space between the borders of cells */ 
 
-        th{
-            text-decoration: underline;
+        th{ /* will style the header cells in the table */ 
+            text-decoration: underline; /* adds a line under the text */ 
         }
     }
 }
 
-footer{
-    clear: both;
-    text-align: center;
-    font-size: medium;
-    padding-top: 5px;
-    margin: -10px;
-    font-weight: 900;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    background-color: #f89d68;
-    margin-left: -150px;
-    margin-right: -150px;
+footer{ /* this will style the footer */
+    clear: both; /* will stop the float property from affecting this div */ 
+    text-align: center; /* text will be placed in the center */ 
+    font-size: medium; /* the font will be medium sized */ 
+    padding-top: 5px; /* space between the text and border at the top */ 
+    margin: -10px; /* margin space around the footer */ 
+    font-weight: 900; /* controls text boldness */ 
+    padding-bottom: 1%; /* space between the text and border at the bottom */ 
+    padding-top: 1%; /* space between the text and border at the top */
+    background-color: #f89d68; /* changes the color for the background of the footer */
+    margin-left: -150px; /* margin space to the left of the footer */
+    margin-right: -150px; /* margin space to the right of the footer */
 }
