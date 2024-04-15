@@ -1,38 +1,38 @@
-body{
-    background-color: #a3aaaa;
-    margin-left: 5%;
-    margin-right: 5%;
+body{ /* will style the whole body of the page */
+    background-color: #a3aaaa; /* sets the background color */
+    margin-left: 5%; /* adds space outside the border (to the left) */
+    margin-right: 5%; /* adds space outside border (to the right) */
 }
 
-header{
-    background-color: #3b0313;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right:-20px;
+header{ /* to style the header */
+    background-color: #3b0313; /* for background color of the header specifically */
+    color: rgb(255, 255, 255); /* for text color */
+    text-align: center; /* aligns text in the center */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* for changing the font */
+    font-size: 30px; /* for setting the size of the text */
+    padding-top: 10px; /* adds space on the top, between the border and elements */
+    padding-bottom: 10px; /* adds space on the bottom, between the border and elements */
+    margin-right:-20px; 
     margin-left: -20px;
 }
 
-.divide{
+.divide{ /* to style the divs with the class 'divide' */
     margin-top: 10px;
     font-size: 25px;
 }
 
-.head{
+.head{ /* to style the elements within the divs that have the class 'head' */
     margin-top: 20px;
     font-size: 20px;
     background-color: #6c1e34;
 }
 
-table{
+table{ /* to style the elements within the tables */
     padding: 20px;
-    th{
+    th{ /* to style the header cells */
         padding: 20px;
     }
-    td{
+    td{ /* to style the data cells */
         padding: 20px;
     }
 }
@@ -81,17 +81,17 @@ pre{
 }
 
 
-table{
+table{ /* to style the elements within the tables */
     text-align: center justify;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 
-    th{
+    th{ /* to style the header cells */
         background-color: #b96565;
     }
 
-    td{
+    td{ /* to style the data cells */
         background-color: rgb(213, 182, 182);
     }
 }
