@@ -8,28 +8,29 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <main>
-        <aside>
+    <main> <!-- adding a main tag within the body -->
+        <aside> <!-- adding an aside tag within main tag for image -->
             <img src="images/vecteezy_gas-station-cars-refueling-service-petrol-shop_15394331.jpg" alt="Petrol Station">
         </aside>
-        <h1>PETROL CALCULATOR</h1>
-        <section class="takingInput">
+        <h1>PETROL CALCULATOR</h1> <!-- creating a level 1 heading -->
+        <section class="takingInput"> <!-- adding a section in the main tag for the petrol price -->
             <p>COST OF PETROL PER LITER:</p>
-            <input id="petrol" type="number" placeholder="1.72">
+            <input id="petrol" type="number" placeholder="1.72"> <!-- input tag for getting user input -->
         </section>
-        <section class="takingInput">
+        <section class="takingInput"> <!-- adding a section in the main tag for the number of liters -->
             <p>NUMBER OF LITERS PURCHASED:</p>
-            <input id="liter" type="number" placeholder="0">
+            <input id="liter" type="number" placeholder="0"> <!-- input tag for getting user input -->
         </section>
-        <section id="output">
-            <button onclick="calculateTotal()">CALCULATE TOTAL COST</button>
+        <section id="output"> <!-- adding a section for the total cost output -->
+            <button onclick="calculateTotal()">CALCULATE TOTAL COST</button> <!-- button that gives the output when clicked -->
             <p>TOTAL COST OF THE PETROL PURCHASED:</p>
-            <h2 id="total"></h2>
+            <h2 id="total"></h2> <!-- creating a level 2 heading -->
         </section>
     </main>
 
     <footer><a href="https://www.vecteezy.com/free-vector/petrol-pump">Petrol Pump Vectors by Vecteezy</a> <br>
         &copy; PETROL CALCULATOR 2024
+        <!-- creating a footer with image information included -->
     </footer>
 </body>
 </html>
