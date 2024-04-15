@@ -1,4 +1,4 @@
-body{
+body{ /* to style the body */
     background-color: #2C3E50;
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +6,7 @@ body{
     
 }
 
-main{
+main{ /* to style the elements in the main tag */
     background-color: aliceblue;
     height: 100%;
     width: 45%;
@@ -14,12 +14,12 @@ main{
     margin-right: auto;
     text-align: center;
 
-    input{
+    input{ /* to style the input elements */
         padding: 5px;
         margin: 8px;
     }
     
-    aside{
+    aside{ /* for styling the image */
         width:100%;
     
         img{
@@ -36,7 +36,7 @@ main{
     }
 }
 
-#output{
+#output{ /* for styling the output elements */
     margin-top: 10px;
     
     p{
@@ -49,7 +49,7 @@ main{
         padding-bottom: 10px;
     }
 
-    button{
+    button{ /* styling the button */
         padding: 8px;
         border: 2px solid black;
         border-radius: 8px;
@@ -58,13 +58,13 @@ main{
         font-weight: 700;
     }
 
-    button:hover{
+    button:hover{ /* styling the button when it is hovered over */
         background-color: #91e2e7;
         color: black;
     }
 }
 
-footer{
+footer{ /* for styling the footer */
     color: #BDC3C7;
     width: 100%;
     text-align: center;
@@ -72,7 +72,7 @@ footer{
     font-size: small;
     position: fixed;
 
-    a{
+    a{ /* styling the hyperlink in the footer */
         color: #BDC3C7;
     }
 }
