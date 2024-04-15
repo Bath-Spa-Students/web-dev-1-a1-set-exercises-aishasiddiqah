@@ -1,16 +1,16 @@
-header{
+header{ /* to style the elements within the header */
     text-align: center;
     background-color: #FF8989;
     font-size: 18px;
     padding: 3px;
 }
 
-body{
+body{ /* to style the elements within the body tag */
     background-color: #FFDDCC;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav{
+nav{ /* to style the list elements for the nav bar */
     ul{
         list-style: none;
         display: flex;
@@ -24,31 +24,31 @@ nav{
     margin-right: auto;
 }
 
-.boxx {
+.boxx { /* to set the boxes on the left side of the page */
     float: left;
     padding: 12px;
 }
 
-.boxx.side {
+.boxx.side { /* to set the box on the right side of the page */
     width: 30%;
 }
 
-.boxx.middle {
+.boxx.middle { /* to set the box in the middle of the page */
     width: 50%;
 }
 
-aside{
+aside{ /* to style the aside tag */
     margin-bottom: 20px;
 }
 
-footer{
+footer{ /* to add styling to the footer */
     clear: both;
     text-align: center;
     background-color: #FF8989;
     padding: 15px;
 }
 
-#left{
+#left{ /* to style the boxes on the left */
     border: 2px solid;
     width: 160px;
     height: 160px;
@@ -62,7 +62,7 @@ footer{
     }
 }
 
-#mid{
+#mid{ /* to style the box in the middle */
     border: 1px solid;
     margin-top: 50px;
     height: 295px;
@@ -88,7 +88,7 @@ footer{
 
 }
 
-#right{
+#right{ /* to style the box on the right */
     border: 1px solid;
     width: 300px;
     height: 340px;
