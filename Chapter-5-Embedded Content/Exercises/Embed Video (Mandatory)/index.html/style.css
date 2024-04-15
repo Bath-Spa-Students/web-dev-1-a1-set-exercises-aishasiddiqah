@@ -1,15 +1,15 @@
-body{
+body{ /* styling the body */
     background-color: #011e19;
 }
 
-video{
-    height: 50%;
-    width: 50%;
+video{ /* for the styling of the video */
+    height: 50%; /* setting the height of the video frame */
+    width: 50%; /* setting the width of the video frame */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8%;
-    margin-bottom: 7%;
+    margin-left: auto; /* to center the video */
+    margin-right: auto; /* to center the video */
+    margin-top: 8%; /* to center the video */
+    margin-bottom: 7%; /* to center the video */ 
     padding: 20px;
     border: 2px solid white;
 }
