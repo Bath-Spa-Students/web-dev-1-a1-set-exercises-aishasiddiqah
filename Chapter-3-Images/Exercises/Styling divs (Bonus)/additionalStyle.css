@@ -15,23 +15,23 @@ body {
     width: max-content;
 }
 
-#A{
-    border-color: blueviolet;
-    box-shadow: 10px 10px 10px red ;
+#A{ /* to style div a */
+    border-color: blueviolet; /* adds color to the border around the div */
+    box-shadow: 10px 10px 10px red ; /* adds shadow around the div */
 }
 
-#B{
+#B{ /* to style div b */
     border-color:lime;
     box-shadow: inset 11px 11px 10px;
 }
 
-#C{
+#C{ /* to style div c */
     border-color:orange;
-    border-radius: 20px;
+    border-radius: 20px; /* to soften the border edges */
     box-shadow: 0 0 0 8px blue, 0 0 0 18px red, 0 0 0 28px green
 }
 
-#D{
+#D{ /* to style div d */
     border-color: brown;
-    text-shadow: 5px 5px 1px black;
+    text-shadow: 5px 5px 1px black; /* to add a shadow effect to the text */
 }
